@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/scalate-core-1.2-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scalatest-1.2-for-scala-2.8.0.RC7-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-compiler.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/play-scala.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/play-scalate.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../framework/play.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../framework/play.jar!/" />
+    </SOURCES>
+  </library>
+</component>

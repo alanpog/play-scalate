@@ -10,3 +10,6 @@ dist
 *.pyc
 documentation/api
 .scala_dependencies
+.idea
+.ensime
+lib/play-scalate.jar
