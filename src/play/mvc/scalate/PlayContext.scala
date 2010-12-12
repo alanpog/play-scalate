@@ -96,6 +96,13 @@ object PlayContext {
 		val bodyAsXML = captureNodeSeq(body)
 		form(_action, params)(bodyAsXML)(attributes)
 	}
+	
+   def form_with(_action: String, attributes: Map[String, String], params: Any*) 
+           (body: => Unit):  xml.NodeSeq = {
+		import org.fusesource.scalate.RenderContext.captureNodeSeq
+		val bodyAsXML = captureNodeSeq(body)
+		form(_action, params)(bodyAsXML)(attributes)
+	}
 
    def form(_action: String, params: Any*) 
            (body: xml.NodeSeq)
